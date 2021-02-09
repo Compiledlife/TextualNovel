@@ -1,0 +1,82 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script2.js"></script>
+    <title>Help Me Teacher!</title>
+    <link rel="stylesheet" type="text/css" href="stl.css">
+</head>
+
+<body>
+    <h1 align="center">Help Me Teacher!</h1>
+    
+<div>
+    <p>You enter the Class room. Three Students are waiting there for your help.</p>
+</div>
+
+<div id="current" style="display: none;"></div>
+<div id="result"></div>
+<div id="result2"></div>
+<div id="result3"></div>
+<br>
+<img src="https://media.tenor.co/images/ee9312e65b300f7fcfee5d05f62d56d7/tenor.gif" id="loseGif1"/>
+<img src="http://reactiongifs.me/wp-content/uploads/2013/10/i-wingman-successfully-leonardo-dicaprio.gif" id="winGif"/> <!-- The gifs that are showing when lost/won -->
+
+<div>
+    <button id="Nishitha"  onclick="Meet('Nishitha')">Talk to Nishitha</button>
+    <button id="Ali" onclick="Meet('Ali')">Say hai to Ali</button>
+    <button id="Kruthika"  onclick="Meet('Kruthika')">Talk to Kruthika</button>
+</div>
+<!-- the first buttons run the function Direction() when clicked --> 
+
+<br>
+
+<div>
+    <button id="studentSad" style="display: none" onclick="Meet2('Sad')"></button>
+    <button id="studentWhat" style="display: none" onclick="Meet2('What')"></button>
+    <button id="studentHappy" style="display: none" onclick="Meet2('Happy')"></button>
+</div>
+
+<div>
+    <button id="A" style="display: none" onclick="Meet3('A')"></button>
+    <button id="B" style="display: none" onclick="Meet3('B')"></button>
+    <button id="C" style="display: none" onclick="Meet3('C')"></button>
+</div>
+
+<div id="greetcard" style="display: none; margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  align-content: center;">
+ <div class="card">
+
+  <div class="card__side card__side--back">
+   <div class="card__cover">
+    <h4 class="card__heading">
+     <span class="card__heading-span">Dear Sir</span>
+    </h4>
+   </div>
+   <div class="card__details">
+    <ul>
+        <p>Education is our passport to the future, for tomorrow belongs to the people who prepare for it today.
+– Malcolm X</p>
+    </ul>
+   </div>
+  </div>
+
+  <div class="card__side card__side--front">
+   <div class="card__theme">
+    <div class="card__theme-box">
+     <p class="card__title">Happy Teachers Day!</p>
+    </div>
+   </div>
+  </div>
+
+ </div>
+</div>
+
+<div>
+    <button id="helpAgain" style="display: none" onclick="HelpAgain()">Help Again!</button>
+</div>
+
+</body>
+</html>
